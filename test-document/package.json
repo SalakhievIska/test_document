@@ -1,0 +1,42 @@
+{
+  "name": "test-document",
+  "version": "0.1.0",
+  "description": "Test project for Paradox",
+  "scripts": {
+    "serve": "npx vue-cli-service serve",
+    "serve:open": "npx vue-cli-service serve --open",
+    "build": "npx vue-cli-service build",
+    "lint": "npx eslint --config .eslintrc.json \"src/**/\"",
+    "lint:fix": "npx eslint --fix --config .eslintrc.json \"src/**/\""
+  },
+  "dependencies": {
+    "@element-plus/icons": "0.0.11",
+    "@fortawesome/fontawesome-svg-core": "^1.2.36",
+    "@fortawesome/free-solid-svg-icons": "^5.15.4",
+    "@fortawesome/vue-fontawesome": "^3.0.0-5",
+    "core-js": "^3.6.5",
+    "element-plus": "^1.1.0-beta.20",
+    "mitt": "^3.0.0",
+    "vue": "^3.0.0",
+    "vuex": "4.0.0-rc.1",
+    "vuex-persistedstate": "^4.1.0"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "~4.5.0",
+    "@vue/cli-plugin-eslint": "~4.5.0",
+    "@vue/cli-service": "~4.5.0",
+    "@vue/compiler-sfc": "^3.0.0",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^7.32.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.25.2",
+    "eslint-plugin-vue": "^7.19.1"
+  },
+  "author": "Iskander Salakhiev",
+  "license": "ISC",
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ]
+}
